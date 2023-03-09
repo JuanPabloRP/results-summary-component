@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./style/base.css">
+  <link rel="stylesheet" href="./style/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Results summary component</title>
@@ -15,33 +16,88 @@
   </style>
 </head>
 <body>
+  <main class="main">
+    <section class="result">
+      <h3>Your Result</h3>
+      <div class="result__score">
+        <h1 class="">76</h1>
+        <p>of 100</p>
+      </div>
+      <h2>Great</h2>
+      <p>
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
 
-  Your Result
-  76
-  of 100
+    <section class="summary">
+      <h3 class="summary__title">
+        Summary
+      </h3>
+      
+      <article class="test test--red">
+        <div class="test__name test__name--red">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction image">
+          <span class="">
+            Reaction
+          </span>
+        </div>
+        
+          <span>
+            80
+          </span>
+        
+      </article>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <article class="test test--yellow">
+        <div class="test__name test__name--yellow">
+          <img src="./assets/images/icon-memory.svg" alt="memory image">
+          <span class="">
+            Memory
+          </span>
+        </div>
+        <span>
+          92 
+        </span>
+      </article>
 
-  Reaction
-  80 / 100
+      <article class="test test--green">
+        <div class="test__name test__name--green">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal image">
+          <span class="">
+            Verbal
+          </span>
+        </div>
+        
+        <span>
+          61
+        </span>
+      </article>
 
-  Memory
-  92 / 100
+      <article class="test test--blue">
+        <div class="test__name test__name--blue">
+          <img src="./assets/images/icon-visual.svg" alt="visual image">
+          <span class="">
+            Visual
+          </span>
+        </div>
+          
+        <span>
+          72
+        </span>     
+      </article> 
 
-  Verbal
-  61 / 100
+      <button class="summary__continue">
+        Continue
+      </button>
 
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
+    </section>
+  <!--
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
+  -->
+  </main>
+  
   </div>
 </body>
 </html>
