@@ -94,16 +94,16 @@
   color: rgb(201, 201, 201);
 }
 .test--red {
-  background-color: hsl(0deg, 57%, 95%);
+  background-color: hsl(0deg, 100%, 94%);
 }
 .test--yellow {
-  background-color: hsl(39deg, 70%, 96%);
+  background-color: hsl(40deg, 100%, 90%);
 }
 .test--green {
-  background-color: hsl(166deg, 85%, 95%);
+  background-color: hsl(166deg, 100%, 94%);
 }
 .test--blue {
-  background-color: hsl(233deg, 63%, 95%);
+  background-color: hsl(231deg, 100%, 91%);
 }
 
 @media (min-width: 1024px) {
